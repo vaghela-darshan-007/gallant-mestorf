@@ -1,6 +1,12 @@
-# Getting Started with Create React App
+# Leaderboard App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a simple leaderboard application built using React.js and styled-components. It displays a list of players with their scores in a leaderboard format. The scores are updated at regular intervals.
+
+## Prerequisites
+- Node.js version 20.11.1
+- npm (Node Package Manager)
+### `npm install`
+
 
 ## Available Scripts
 
@@ -29,18 +35,30 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+## Folder Structure
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+The project folder structure is organized as follows:
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+src/
+|-- components/
+|   |-- Leaderboard.tsx
+|   |-- GlobalStyles.tsx
+|   |-- PlayerList.tsx
+|   |-- Score.tsx
+|-- data/
+|   |-- players.json
+|-- App.tsx
+|-- index.css
+|-- index.tsx
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Technologies Used
+- React.js
+- styled-components
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## GitHub Repo Link and branch
+- https://github.com/vaghela-darshan-007/Stream-Score
+- master ( branch )
 
-## Learn More
+## Credits
+This project was created by Darshan Vaghela (vaghela-darshan-007) as a demonstration of React.js and styled-components usage.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
