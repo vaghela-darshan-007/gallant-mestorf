@@ -1,5 +1,7 @@
 # Leaderboard App
 
+
+
 This is a simple leaderboard application built using React.js and styled-components. It displays a list of players with their scores in a leaderboard format. The scores are updated at regular intervals.
 
 ## Prerequisites
