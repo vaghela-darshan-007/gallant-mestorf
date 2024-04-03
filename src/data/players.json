@@ -5,7 +5,9 @@
         "picture": "https://randomuser.me/api/portraits/men/46.jpg",
         "translateY": 0,
         "score": 157000,
-        "lastScore": 157000
+        "lastScore": 157000,
+        "lastPosition": 1,
+        "currentPosition": 1
     },
     {
         "userID": "u-2",
@@ -13,7 +15,9 @@
         "picture": "https://randomuser.me/api/portraits/women/85.jpg",
         "translateY": 0,
         "score": 46200,
-        "lastScore": 46200
+        "lastScore": 46200,
+        "lastPosition": 2,
+        "currentPosition": 2
     },
     {
         "userID": "u-3",
@@ -21,7 +25,9 @@
         "picture": "https://randomuser.me/api/portraits/men/36.jpg",
         "translateY": 0,
         "score": 38800,
-        "lastScore": 38800
+        "lastScore": 38800,
+        "lastPosition": 3,
+        "currentPosition": 3
     },
     {
         "userID": "u-4",
@@ -29,7 +35,9 @@
         "picture": "https://randomuser.me/api/portraits/women/72.jpg",
         "translateY": 0,
         "score": 33400,
-        "lastScore": 33400
+        "lastScore": 33400,
+        "lastPosition": 4,
+        "currentPosition": 4
     },
     {
         "userID": "u-5",
@@ -37,7 +45,9 @@
         "picture": "https://randomuser.me/api/portraits/men/40.jpg",
         "translateY": 0,
         "score": 31600,
-        "lastScore": 31600
+        "lastScore": 31600,
+        "lastPosition": 5,
+        "currentPosition": 5
     },
     {
         "userID": "u-6",
@@ -45,7 +55,9 @@
         "picture": "https://randomuser.me/api/portraits/women/51.jpg",
         "translateY": 0,
         "score": 30800,
-        "lastScore": 30800
+        "lastScore": 30800,
+        "lastPosition": 6,
+        "currentPosition": 6
     },
     {
         "userID": "u-7",
@@ -53,7 +65,9 @@
         "picture": "https://randomuser.me/api/portraits/women/79.jpg",
         "translateY": 0,
         "score": 22300,
-        "lastScore": 22300
+        "lastScore": 22300,
+        "lastPosition": 7,
+        "currentPosition": 7
     },
     {
         "userID": "u-8",
@@ -61,7 +75,9 @@
         "picture": "https://randomuser.me/api/portraits/women/89.jpg",
         "translateY": 0,
         "score": 17800,
-        "lastScore": 17800
+        "lastScore": 17800,
+        "lastPosition": 8,
+        "currentPosition": 8
     },
     {
         "userID": "u-9",
@@ -69,7 +85,9 @@
         "picture": "https://randomuser.me/api/portraits/men/9.jpg",
         "translateY": 0,
         "score": 17300,
-        "lastScore": 17300
+        "lastScore": 17300,
+        "lastPosition": 9,
+        "currentPosition": 9
     },
     {
         "userID": "u-10",
@@ -77,6 +95,8 @@
         "picture": "https://randomuser.me/api/portraits/men/5.jpg",
         "translateY": 0,
         "score": 15400,
-        "lastScore": 15400
+        "lastScore": 15400,
+        "lastPosition": 10,
+        "currentPosition": 10
     }
 ]

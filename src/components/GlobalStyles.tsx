@@ -9,12 +9,12 @@ const GlobalStyle = createGlobalStyle`
       sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    background-color: aliceblue;
+    background-color: #5CDB95;
   }
 
   code {
     font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-      monospace;
+      monospace, Roboto Mono;
   }
 `;
 

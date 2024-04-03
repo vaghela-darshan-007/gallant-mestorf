@@ -4,6 +4,34 @@
 
 This is a simple leaderboard application built using React.js and styled-components. It displays a list of players with their scores in a leaderboard format. The scores are updated at regular intervals.
 
+# Re-Submitted Changes ( As on 03-04-2024 ):
+1. Instead of using 3 states for players, used only one state to manage data
+    Advantage:
+        - Code will be more manageable, readable and scalable
+2. Dynamically calculated translateValue based on element height & margins
+    => Added box-sizing: border-box property to eliminate calculation of internal paddings and border-widths
+    => Removed fixed 750px height of "PlayerListContainer"
+    => calculation of translateY value dynamically on "sortedPlayersWithTranslate"
+    => Dynamic CSS changes using props
+    Advantage:
+        - Animation of translateY will be automatically set based on calculation
+        - Now, more than 10 elements can be animated, previously it was only for 10 element and also hight was also fixed of each element
+3. Added "Pt" text After score for better readability
+4. Changed color theme and fonts for better fresh look and feel
+5. Responsiveness
+    => Added breakpoints for large screen, normal screen, medium screen and small screen
+    => replaced pixels and percentage css with vh & vw css for better code standard
+    Advantage:
+        - Now, webpage will be look good in laptop, tablet and mobile devices as well
+6. Added highlight for top 2 players with gold, silver and bronze text with better background
+7. Created hooks for code reusability
+    (i) useInitialPlayersData
+        => To get initial data from json file, it can be used to fetch data from API as well
+    (ii) useNumberCountAnimation
+        => Seperated number count animation and used in hook, so that it can be applied in multiple places
+        => replaced existing score count animation with this hook
+        => NEW: used this hook to animate position number of player as well
+
 ## Prerequisites
 - Node.js version 20.11.1
 - npm (Node Package Manager)
